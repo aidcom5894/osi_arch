@@ -1,5 +1,22 @@
 <?php 
 
+$page = $_SERVER['PHP_SELF'];
+  $sec = "5";
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
+    <title></title>
+</head>
+<body>
+
+<?php 
+
 include('master_page.php');
 include('config.php');
 
@@ -10,6 +27,7 @@ while($row = mysqli_fetch_assoc($fetchActiveUsers))
 	$username = $row['username'];
 
 }
+
 
 ?>
 
