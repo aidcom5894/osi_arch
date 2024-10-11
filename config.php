@@ -1,9 +1,9 @@
 <?php 
 
 $hostname = 'localhost';
-$username = 'root';
-$password = 'Admin1234#@';
-$dbname = 'session_test';
+$username = 'u445536153_ositester';
+$password = '#4lFygmvg*#F';
+$dbname = 'u445536153_osimodel';
 
 $config = mysqli_connect($hostname,$username,$password,$dbname);
 
